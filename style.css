@@ -561,8 +561,7 @@ input:checked + .slider-round .moon-icon {
   font-weight: 900;
   line-height: 0.75;
   letter-spacing: -8px;
-  color: var(--tag-bg);
-  opacity: 0.7;
+  opacity: 1;
   user-select: none;
 }
 
@@ -728,7 +727,7 @@ body.dark-theme .stat-change.positive {
    Trust Logos Section (High-Fidelity)
    ========================================== */
 .logos-section {
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 110px;
   border-top: 1px solid var(--card-border);
   border-bottom: 1px solid var(--card-border);
@@ -737,8 +736,8 @@ body.dark-theme .stat-change.positive {
 
 .logos-subtext {
   font-size: 13px;
-  color: var(--text-light);
   margin-bottom: 28px;
+  margin-left: 40px;
 }
 
 .logos-track {
@@ -758,7 +757,6 @@ body.dark-theme .stat-change.positive {
 .logo-svg {
   height: 24px;
   max-width: 120px;
-  color: var(--text-light);
   opacity: 0.55;
   transition: var(--transition);
   user-select: none;
@@ -836,7 +834,6 @@ body.dark-theme .stat-change.positive {
 
 .options-subtitle {
   font-size: 16px;
-  color: var(--text-muted);
   max-width: 680px;
   line-height: 1.6;
   margin: 0 auto;
