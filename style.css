@@ -1,4 +1,3 @@
-
 :root {
   /* Fonts */
   --font-heading: "Outfit", sans-serif;
@@ -99,6 +98,8 @@ button {
   transition:
     background-color 0.4s ease,
     border-color 0.4s ease;
+  position: relative;
+  padding: 15px;
 }
 
 .header-container {
@@ -108,6 +109,7 @@ button {
   justify-content: space-between;
   align-items: center;
   background: url("https://images.pexels.com/videos/4021642/a-railway-crossing-4021642.jpeg");
+  border-radius: 10px;
 }
 
 .logo-area {
@@ -201,9 +203,8 @@ input:checked + .slider-round .moon-icon {
 .nav-links {
   display: flex;
   gap: 4px;
-  /* background-color: var(--tag-bg); */
   padding: 4px;
-  border-radius: 30px;
+  border-radius: 100px;
   transition: background-color 0.4s ease;
 }
 
@@ -324,8 +325,9 @@ input:checked + .slider-round .moon-icon {
   background-size: cover;
   background-position: center;
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
   box-shadow: var(--shadow-lg);
+  border-radius: 10px;
 }
 
 .hero-overlay {
@@ -364,6 +366,7 @@ input:checked + .slider-round .moon-icon {
   justify-content: space-between;
   align-items: flex-end;
   gap: 40px;
+  margin-top: 15rem;
 }
 
 .hero-subtext {
@@ -409,7 +412,7 @@ input:checked + .slider-round .moon-icon {
   margin-bottom: 100px;
 }
 
-.left{
+.left {
   width: 50%;
 }
 
@@ -1244,7 +1247,7 @@ body.dark-theme .stat-change.positive {
   font-family: var(--font-heading);
   font-size: 120px;
   font-weight: 900;
-  color: transparent;
+  opacity: 0.5;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.04);
   letter-spacing: -2px;
   text-transform: uppercase;
