@@ -1190,9 +1190,17 @@ body.dark-theme .stat-change.positive {
 }
 
 .footer-nav a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-size: 15px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.6);
+  color: white;
+}
+
+.footer-nav svg{
+  color: white;
 }
 
 .footer-nav a:hover {
