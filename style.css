@@ -1,6 +1,4 @@
-/* ==========================================
-   Design System & Theme Variables
-   ========================================== */
+
 :root {
   /* Fonts */
   --font-heading: "Outfit", sans-serif;
@@ -98,7 +96,6 @@ button {
   background-color: var(--bg-header);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--card-border);
   transition:
     background-color 0.4s ease,
     border-color 0.4s ease;

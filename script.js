@@ -1,6 +1,3 @@
-/* ==========================================
-   SwiftContainers Interactive Logic (Refined)
-   ========================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
   
@@ -8,9 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('theme-toggle');
   const body = document.body;
   
-  // ==========================================
-  // 1. Light/Dark Theme Toggle
-  // ==========================================
+  // Light/Dark Theme Toggle
   const savedTheme = localStorage.getItem('theme');
   const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   
@@ -34,9 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  // ==========================================
-  // 2. Interactive Shipment Analytics Chart
-  // ==========================================
+  // Interactive Shipment Analytics Chart
   const chartCanvas = document.getElementById('shipmentChart');
   const dateSelect = document.getElementById('date-range-select');
   const statTotal = document.getElementById('stat-total');
@@ -187,9 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  // ==========================================
   // 3. Shipping Options 3D Stacked Card Deck
-  // ==========================================
   const deckCards = document.querySelectorAll('.deck-card');
   const deckButtons = document.querySelectorAll('.deck-btn');
   const deckCardTabs = document.querySelectorAll('.deck-card-tab');
@@ -270,9 +261,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  // ==========================================
-  // 4. Request A Quote Modal
-  // ==========================================
+  //  Request A Quote Modal
+
   const quoteModal = document.getElementById('quote-modal');
   const modalCloseBtn = document.getElementById('modal-close-btn');
   const quoteForm = document.getElementById('quote-form');
